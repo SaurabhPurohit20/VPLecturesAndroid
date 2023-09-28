@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.api.GetResponseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:text="Employee" />
+
+        <EditText
+            android:id="@+id/et_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Size"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn_get_emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Employees" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Login" />
+
+        <Button
+            android:id="@+id/btn_get_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Call" />
+
+        <Button
+            android:id="@+id/btn_post_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Call" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+</ScrollView>
